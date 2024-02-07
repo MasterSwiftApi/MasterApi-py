@@ -175,7 +175,7 @@ Request Details :
 |prc*||Order Price|
 |trgprc||Only to be sent in case of SL / SL-M order.|
 |dscqty||Disclosed quantity (Max 10% for NSE, and 50% for MCX)|
-|prd*|C / M / H|Product name (Select from ‘prarr’ Array provided in User Details response, and if same is allowed for selected, exchange. Show product display name, for user to select, and send corresponding prd in API call)|
+|prd*|C / M / H (C-Delivery , M-Margin ,H-Cover Order)|Product name (Select from ‘prarr’ Array provided in User Details response, and if same is allowed for selected, exchange. Show product display name, for user to select, and send corresponding prd in API call)|
 |trantype*|B / S|B -> BUY, S -> SELL|
 |prctyp*|LMT / MKT  / SL-LMT / SL-MKT / DS / 2L / 3L||||
 |ret*|DAY / EOS / IOC |Retention type (Show options as per allowed exchanges) |
